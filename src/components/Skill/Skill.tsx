@@ -1,4 +1,3 @@
-import React from 'react';
 import { Card, CardContent, Typography, Grid, Icon } from '@mui/material';
 import { Verified } from '@mui/icons-material'; 
 import './skill.css';
