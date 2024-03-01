@@ -1,4 +1,3 @@
-import React from 'react';
 import { Card, CardContent, Typography, Grid, Icon } from '@mui/material';
 import { Verified } from '@mui/icons-material'; 
 import './skill.css';
@@ -9,12 +8,12 @@ function Skill() {
       <section id='skill'>
         <div className="skill-container">
           <div className="skill-content">
-            <h4 className="skill-heading fraunces">What Skills I Have</h4>
+            <h5 className="skill-heading fraunces">What Skills I Have</h5>
             <Grid container spacing={4}> 
               <Grid item xs={4}>
                 <Card className='resume-container'>
                   <CardContent>
-                    <Typography gutterBottom variant='h6' component='h2'>
+                    <Typography gutterBottom variant='h6' component='h2' align='center' sx={{marginBottom: '30px'}}>
                       Frontend Development
                     </Typography>
                     <Grid container spacing={1} alignItems="center" justifyContent="space-between">
@@ -60,6 +59,28 @@ function Skill() {
                         </Grid>
                         <Grid item>
                           <Typography variant="body2" color="white">React</Typography>
+                        </Grid>
+                      </Grid>
+                       {/* 5th Group */}
+                       <Grid container item spacing={1} xs={6} alignItems="center">
+                        <Grid item>
+                          <Icon color="primary">
+                            <Verified fontSize="small" />
+                          </Icon>
+                        </Grid>
+                        <Grid item>
+                          <Typography variant="body2" color="white">Javascript</Typography>
+                        </Grid>
+                      </Grid>
+                       {/* 6th Group */}
+                       <Grid container item spacing={1} xs={6} alignItems="center">
+                        <Grid item>
+                          <Icon color="primary">
+                            <Verified fontSize="small" />
+                          </Icon>
+                        </Grid>
+                        <Grid item>
+                          <Typography variant="body2" color="white">Vuejs</Typography>
                         </Grid>
                       </Grid>
                     </Grid>
