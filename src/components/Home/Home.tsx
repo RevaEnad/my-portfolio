@@ -1,4 +1,4 @@
-import './Home.css'; 
+import './home.css'; 
 import Resume from './Resume';
 import ContactButton from './ContactButton';
 
