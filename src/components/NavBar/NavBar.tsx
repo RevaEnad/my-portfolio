@@ -12,7 +12,7 @@ const NavBar = () => {
         <Button
         className='navbar-button'
           color="inherit"
-          href="home"
+          href="#home"
           
           
         >
@@ -21,7 +21,7 @@ const NavBar = () => {
         <Button
           className='navbar-button'
           color="inherit"
-          href="about"
+          href="#about"
           
         >
           About
@@ -30,7 +30,7 @@ const NavBar = () => {
         <Button
           className='navbar-button'
           color="inherit"
-          href="skill"
+          href="#skill"
           
         >
           Skills
@@ -38,7 +38,7 @@ const NavBar = () => {
         <Button
           className='navbar-button'
           color="inherit"
-          href="experience"
+          href="#experience"
         >
           Work Experience
         </Button>
