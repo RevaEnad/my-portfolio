@@ -1,26 +1,31 @@
 .navbar-appbar {
-    background-color: transparent !important; 
-    box-shadow: none !important; 
-    position: fixed !important; 
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 80px !important; 
-  }
-  
-  .navbar-toolbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-  }
-  
-  .navbar-button {
-    font-size: 1.2rem !important; 
-    margin-right: 20px;
-    text-transform: none !important;
-    width: auto !important; 
-    height: 100% !important; 
-    padding: 8px 16px !important; 
-  }
-  
+  background-color: transparent !important; 
+  box-shadow: none !important; 
+  position: fixed !important; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px !important; 
+}
+
+.navbar-toolbar {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.navbar-button {
+  font-size: 1.2rem !important; 
+  margin: 0 10px; /* Adjust margin as needed */
+  text-transform: none !important;
+  width: auto !important; 
+  height: 100% !important; 
+  padding: 8px 16px !important; 
+}
+
+@media (max-width: 600px) {
+.navbar-button {
+  font-size: 13px!important; /* Adjust font size as needed */
+  margin: 10px 0;
+}
+}

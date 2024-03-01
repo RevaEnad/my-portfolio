@@ -7,14 +7,14 @@ const AboutMe = () => {
     <div className="about-container">
       <section id='about'>
         <div className="about-content">
-          <Grid container spacing={2} direction={'row'} alignItems="center">
-            <Grid item xs={5}>
-              <Box sx={{ width: '100px', height: '100px', overflow: 'hidden', borderRadius: '50%' }}>
+          <Grid container spacing={2} direction={{ xs: 'column', sm: 'row' }} alignItems="center">
+            <Grid item xs={12} sm={5}>
+              <Box sx={{ width: '100px', height: '100px', overflow: 'hidden', borderRadius: '50%', marginTop: '80%' }}>
                 <img src={profileImage} alt="Profile" className="profile-image" />
               </Box>
             </Grid>
-            <Grid item xs={6}>
-            <h3 className="about-heading fraunces">ABOUT ME</h3>
+            <Grid item xs={12} sm={6}>
+              <h3 className="about-heading fraunces">ABOUT ME</h3>
               <Grid container direction={'column'}>
                 <Grid item>
                   <p className="about-subheading poppins-regular">
