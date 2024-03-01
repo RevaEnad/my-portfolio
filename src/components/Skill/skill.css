@@ -1,0 +1,37 @@
+.skill-container {
+    width: 100vw; /* Set width to 100% of the viewport width */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: white;
+  }
+  
+  .skill-content {
+    text-align: center;
+    color: black;
+  }
+  
+  .skill-heading {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .skill-subheading {
+    font-size: 2rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .resume-container,
+  .contact-button-container {
+    margin: 0 10px; /* Adjust spacing between the buttons */
+  }
+  
