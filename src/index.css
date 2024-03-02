@@ -113,7 +113,6 @@ button:focus-visible {
   font-family: "Poppins", sans-serif;
   font-weight: 200;
   font-style: normal;
-  font-size: 15px;
 }
 
 .poppins-light {
@@ -125,8 +124,8 @@ button:focus-visible {
 .poppins-regular {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-style: bold;
-  font-size: 29px;
+  font-style: normal;
+  font-size: 16px;
 
 }
 
