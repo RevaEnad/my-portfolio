@@ -39,17 +39,6 @@ function Skill() {
                           <Typography variant="body2" color="white">CSS</Typography>
                         </Grid>
                       </Grid>
-                      {/* Third Group */}
-                      <Grid container item spacing={1} xs={6} alignItems="center">
-                        <Grid item>
-                          <Icon color="primary">
-                            <Verified fontSize="small" />
-                          </Icon>
-                        </Grid>
-                        <Grid item>
-                          <Typography variant="body2" color="white">Bootstrap</Typography>
-                        </Grid>
-                      </Grid>
                       {/* Fourth Group */}
                       <Grid container item spacing={1} xs={6} alignItems="center">
                         <Grid item>
@@ -59,6 +48,28 @@ function Skill() {
                         </Grid>
                         <Grid item>
                           <Typography variant="body2" color="white">React</Typography>
+                        </Grid>
+                      </Grid>
+                      {/* Fift Group */}
+                      <Grid container item spacing={1} xs={6} alignItems="center">
+                        <Grid item>
+                          <Icon color="primary">
+                            <Verified fontSize="small" />
+                          </Icon>
+                        </Grid>
+                        <Grid item>
+                          <Typography variant="body2" color="white">Vuejs</Typography>
+                        </Grid>
+                      </Grid>
+                      {/* Sixth Group */}
+                      <Grid container item spacing={1} xs={6} alignItems="center">
+                        <Grid item>
+                          <Icon color="primary">
+                            <Verified fontSize="small" />
+                          </Icon>
+                        </Grid>
+                        <Grid item>
+                          <Typography variant="body2" color="white">Typescript</Typography>
                         </Grid>
                       </Grid>
                     </Grid>
@@ -83,18 +94,7 @@ function Skill() {
                           <Typography variant="body2" color="white">Node.js</Typography>
                         </Grid>
                       </Grid>
-                      {/* Second Group */}
-                      <Grid container item spacing={1} xs={6} alignItems="center">
-                        <Grid item>
-                          <Icon color="primary">
-                            <Verified fontSize="small" />
-                          </Icon>
-                        </Grid>
-                        <Grid item>
-                          <Typography variant="body2" color="white">Express.js</Typography>
-                        </Grid>
-                      </Grid>
-                      {/* Third Group */}
+                      {/* 2nd Group */}
                       <Grid container item spacing={1} xs={6} alignItems="center">
                         <Grid item>
                           <Icon color="primary">
@@ -124,7 +124,7 @@ function Skill() {
                           </Icon>
                         </Grid>
                         <Grid item>
-                          <Typography variant="body2" color="white">SQL</Typography>
+                          <Typography variant="body2" color="white">MySQL</Typography>
                         </Grid>
                       </Grid>
                       {/* Second Group */}
@@ -135,7 +135,40 @@ function Skill() {
                           </Icon>
                         </Grid>
                         <Grid item>
-                          <Typography variant="body2" color="white">NoSQL</Typography>
+                          <Typography variant="body2" color="white">PostgreSQL</Typography>
+                        </Grid>
+                      </Grid>
+                    </Grid>
+                  </CardContent>
+                </Card>
+              </Grid>
+              <Grid item xs={12} sm={6} md={4}>
+                <Card className='resume-container' >
+                  <CardContent>
+                    <Typography gutterBottom variant='h6' component='h2' align='center'>
+                      Version Control
+                    </Typography>
+                    <Grid container spacing={1} alignItems="center" justifyContent="space-between">
+                      {/* First Group */}
+                      <Grid container item spacing={1} xs={6} alignItems="center">
+                        <Grid item>
+                          <Icon color="primary">
+                            <Verified fontSize="small" />
+                          </Icon>
+                        </Grid>
+                        <Grid item>
+                          <Typography variant="body2" color="white">Git</Typography>
+                        </Grid>
+                      </Grid>
+                      {/* Second Group */}
+                      <Grid container item spacing={1} xs={6} alignItems="center">
+                        <Grid item>
+                          <Icon color="primary">
+                            <Verified fontSize="small" />
+                          </Icon>
+                        </Grid>
+                        <Grid item>
+                          <Typography variant="body2" color="white">GitLab</Typography>
                         </Grid>
                       </Grid>
                       {/* Third Group */}
@@ -146,7 +179,51 @@ function Skill() {
                           </Icon>
                         </Grid>
                         <Grid item>
-                          <Typography variant="body2" color="white">Firebase</Typography>
+                          <Typography variant="body2" color="white">Github</Typography>
+                        </Grid>
+                      </Grid>
+                    </Grid>
+                  </CardContent>
+                </Card>
+              </Grid>
+              <Grid item xs={12} sm={6} md={4}>
+                <Card className='resume-container' >
+                  <CardContent>
+                    <Typography gutterBottom variant='h6' component='h2' align='center'>
+                      Other Tools and Libraries
+                    </Typography>
+                    <Grid container spacing={1} alignItems="center" justifyContent="space-between">
+                      {/* First Group */}
+                      <Grid container item spacing={1} xs={6} alignItems="center">
+                        <Grid item>
+                          <Icon color="primary">
+                            <Verified fontSize="small" />
+                          </Icon>
+                        </Grid>
+                        <Grid item>
+                          <Typography variant="body2" color="white">Figma</Typography>
+                        </Grid>
+                      </Grid>
+                      {/* Second Group */}
+                      <Grid container item spacing={1} xs={6} alignItems="center">
+                        <Grid item>
+                          <Icon color="primary">
+                            <Verified fontSize="small" />
+                          </Icon>
+                        </Grid>
+                        <Grid item>
+                          <Typography variant="body2" color="white">Material-UI</Typography>
+                        </Grid>
+                      </Grid>
+                      {/* Third Group */}
+                      <Grid container item spacing={1} xs={6} alignItems="center">
+                        <Grid item>
+                          <Icon color="primary">
+                            <Verified fontSize="small" />
+                          </Icon>
+                        </Grid>
+                        <Grid item>
+                          <Typography variant="body2" color="white">Bootstrap</Typography>
                         </Grid>
                       </Grid>
                     </Grid>
