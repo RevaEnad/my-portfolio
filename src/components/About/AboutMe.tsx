@@ -9,8 +9,8 @@ const AboutMe = () => {
         <div className="about-content">
           <Grid container spacing={2} direction={{ xs: 'column', sm: 'row' }} alignItems="center">
             <Grid item xs={12} sm={5}>
-              <Box sx={{ width: '100px', height: '100px', overflow: 'hidden', borderRadius: '50%', marginTop: '80%' }}>
-                <img src={profileImage} alt="Profile" className="profile-image" />
+              <Box sx={{ marginTop: '20%', overflow: 'hidden', borderRadius: '50%', position: 'relative', justifyContent: 'center', display: 'flex', alignItems: 'center' }}>
+                <img src={profileImage} alt="Profile" className="profile-image" style={{ width: '100%', height: '100%', borderRadius: '50%' }} />
               </Box>
             </Grid>
             <Grid item xs={12} sm={6}>
@@ -18,21 +18,20 @@ const AboutMe = () => {
               <Grid container direction={'column'}>
                 <Grid item>
                   <p className="about-subheading poppins-regular">
-                    I'm Reva Enad, a passionate Software Programmer with a keen interest in Front-end Development. 
-                    With a background in [Your Education/Experience], I have honed my skills in [Your Skills/Expertise], allowing me to [Achievements or Unique Selling Points].
+                    I'm Reva Enad, a passionate software programmer with a keen interest in front-end development. 
+                    With a background in Information Technology from University of San Carlos and two years and five months of experience working as a Programmer, I've honed my skills in HTML, CSS, Javascript and React, enabling me to create dynamic and user-friendly web interfaces. 
+                    My achievements include successfully leading the development of a responsive e-commerce website that increased user engagement by 30%.
                   </p>
                 </Grid>
                 <Grid item>
                   <p className="about-subheading poppins-regular">
-                    In addition to my professional endeavors, I am deeply committed to [Any personal interests or causes]. 
-                    When I'm not coding or designing, you can find me [Describe hobbies or interests].
+                    In addition to my professional endeavors, I am deeply committed to working out. 
+                    When I'm not coding or designing, you can find me hiking, working out, running and travelling.
                   </p>
                 </Grid>
                 <Grid item>
                   <p className="about-subheading poppins-regular">
-                    Feel free to explore my portfolio to get a glimpse of my work and achievements. 
-                    I'm always open to new opportunities and collaborations, so don't hesitate to reach out!
-                    Thank you for visiting, and I look forward to connecting with you.
+                    I'm always open to new opportunities and collaborations, so please don't hesitate to reach out! Thank you for visiting, and I look forward to connecting with you.
                   </p>
                 </Grid>
               </Grid>

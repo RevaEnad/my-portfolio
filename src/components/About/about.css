@@ -33,3 +33,12 @@
       padding-right: 15px !important;
   }
   }
+
+  .about-container img {
+    max-width: 25%; /* Adjust the value as needed */
+    max-height: 23%;
+}
+
+.about-heading{
+  text-align: center;
+}
