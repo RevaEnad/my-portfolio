@@ -8,7 +8,8 @@ const Home = () => {
     <div className="home-container">
         <div className="home-content">
           <h3 className="home-heading fraunces">Hello. Welcome!</h3>
-          <p className="home-subheading poppins-regular"> I'm Reva Enad</p>
+          <p className="home-subheading poppins-regular"> I'm Reva Enad.</p>
+          <p className="home-subheading poppins-extralight"> A web developer based in Cebu, Philippines.</p>
           <div className="button-container">
             <div className="resume-container">
               <Resume />
