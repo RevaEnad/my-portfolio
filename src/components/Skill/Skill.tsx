@@ -8,7 +8,7 @@ function Skill() {
       <section id='skill'>
         <div className="skill-container">
           <div className="skill-content">
-            <h5 className="skill-heading fraunces">What Skills I Have</h5>
+            <h5 className="skill-heading fraunces">skills and experience</h5>
             <Grid container spacing={4}> 
               <Grid item xs={12} sm={6} md={4}>
                 <Card className='resume-container'>
@@ -91,7 +91,7 @@ function Skill() {
                           </Icon>
                         </Grid>
                         <Grid item>
-                          <Typography variant="body2" color="white">Node.js</Typography>
+                          <Typography variant="body2" color="white">Java(Springboot)</Typography>
                         </Grid>
                       </Grid>
                       {/* 2nd Group */}

@@ -34,3 +34,7 @@
     margin: 0 10px; /* Adjust spacing between the buttons */
   }
   
+  .social-icons-container{
+    margin-top: 8%;
+    color: white;
+  }
