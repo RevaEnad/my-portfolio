@@ -102,7 +102,7 @@ function Skill() {
                           </Icon>
                         </Grid>
                         <Grid item>
-                          <Typography variant="body2" color="white">MongoDB</Typography>
+                          <Typography variant="body2" color="white">PHP</Typography>
                         </Grid>
                       </Grid>
                     </Grid>
@@ -136,6 +136,28 @@ function Skill() {
                         </Grid>
                         <Grid item>
                           <Typography variant="body2" color="white">PostgreSQL</Typography>
+                        </Grid>
+                      </Grid>
+                       {/* Third Group */}
+                      <Grid container item spacing={1} xs={6} alignItems="center">
+                        <Grid item>
+                          <Icon color="primary">
+                            <Verified fontSize="small" />
+                          </Icon>
+                        </Grid>
+                        <Grid item>
+                          <Typography variant="body2" color="white">Docker</Typography>
+                        </Grid>
+                      </Grid>
+                      {/* Fourth Group */}
+                      <Grid container item spacing={1} xs={6} alignItems="center">
+                        <Grid item>
+                          <Icon color="primary">
+                            <Verified fontSize="small" />
+                          </Icon>
+                        </Grid>
+                        <Grid item>
+                          <Typography variant="body2" color="white">Kubernetes</Typography>
                         </Grid>
                       </Grid>
                     </Grid>
