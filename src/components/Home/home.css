@@ -1,40 +1,83 @@
-.home-container {
-    width: 100vw; /* Set width to 100% of the viewport width */
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-  }
-  
-  .home-content {
-    text-align: center;
-    color: white;
-  }
-  
-  .home-heading {
-    font-size: 3rem;
-    margin-bottom: 10px;
-  }
-  
-  .home-subheading {
-    font-size: 2rem;
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-  
-  .button-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  
-  .resume-container,
-  .contact-button-container {
-    margin: 0 10px; /* Adjust spacing between the buttons */
-  }
-  
-  .social-icons-container{
-    margin-top: 8%;
-    color: white;
-  }
+#home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.resume,
+.contact {
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.icons {
+  display: flex;
+  gap: 10px; 
+}
+
+.introduction,
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.introduction h1,
+.introduction p,
+.intro p {
+  margin: 0;
+}
+
+.introduction.fraunces .job-title {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.introduction.fraunces .job-title p {
+  margin: 0;
+}
+
+.introduction.fraunces .job-title .line {
+  width: 110px;
+  height: 1px;
+  margin: 9px;
+  background-color: white;
+}
+
+.intro {
+  margin-top: 3%;
+  color: #B8C1EC;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.resume-container,
+.contact-button-container {
+  padding: 10px 10px; 
+}
+
+.social-icons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.social-icons-container a {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 10px; /* Add some bottom margin for spacing */
+}
+
+.social-icons-container a:hover {
+  text-decoration: none; /* Remove underline on hover */
+}

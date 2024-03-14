@@ -1,6 +1,6 @@
 .about-container {
     height: 100vh;
-    background-color: #2D3250;
+    background-color: #b8c1ec;
     display: flex;
     align-items: top;
     justify-content: center;
@@ -10,7 +10,7 @@
   
   .about-content {
     text-align: center;
-    color: white;
+    color: #232946;
     margin-top:6%;
   }
   
