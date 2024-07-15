@@ -49,9 +49,7 @@ const Home = () => {
           </Grid>
         </Grid>
         <Grid item xs={12} md={6}>
-          <div className="contact">
-            
-          </div>
+         
         </Grid>
       </Grid>
     </section>

@@ -1,60 +1,47 @@
-import { AppBar, Toolbar, Button, IconButton, Box, Typography } from '@mui/material';
-import { Brightness4 } from '@mui/icons-material';
+import { AppBar, Toolbar, Box, Typography } from '@mui/material';
 import './navbar.css';
 
-const NavBar = () => {
-
+const NavigationBar= () => {
   return (
+    <nav>
       <AppBar
         position="fixed"
         className="navbar-appbar"
       >
-        <Toolbar sx={{ marginTop: 4.5 }}>
+        <Toolbar className="navbar-toolbar">
           <Box display="flex" alignItems="center" flexGrow={1}>
             <Typography variant="h6" component="span" className="logo-text">RE</Typography>
           </Box>
-          <Box display="flex">
-            <Button
-              className='navbar-button fraunces'
-              color="inherit"
+          <Box display="flex" component="nav">
+            <a
+              className='navbar-link fraunces'
               href="#home"
             >
               Home
-            </Button>
-            <Button
-              className='navbar-button'
-              color="inherit"
+            </a>
+            <a
+              className='navbar-link'
               href="#about"
             >
               About
-            </Button>
-            <Button
-              className='navbar-button'
-              color="inherit"
-              href="#skill"
+            </a>
+            <a
+              className='navbar-link'
+              href="#skills"
             >
               Skills
-            </Button>
-            <Button
-              className='navbar-button'
-              color="inherit"
+            </a>
+            <a
+              className='navbar-link'
               href="#experience"
             >
               Work Experience
-            </Button>
-          </Box>
-          <Box display="flex" alignItems="center">
-            <IconButton
-              edge="start"
-              color="inherit"
-              aria-label="theme-switcher"
-            >
-              <Brightness4 />
-            </IconButton>
+            </a>
           </Box>
         </Toolbar>
       </AppBar>
+    </nav>
   );
 };
 
-export default NavBar;
+export default NavigationBar;

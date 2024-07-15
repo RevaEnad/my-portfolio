@@ -1,6 +1,6 @@
 import { Grid, Box } from '@mui/material';
-import './about.css'; // Import your CSS file
-import profileImage from '/profile.jpg'; // Import your profile image
+import './about.css'; 
+import profileImage from '/profile.jpg'; 
 
 const AboutMe = () => {
   return (
