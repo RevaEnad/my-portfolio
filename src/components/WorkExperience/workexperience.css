@@ -109,10 +109,8 @@
         font-size: 0.9rem;
         color: #444;
         line-height: 1.6;
-        /* Remove margin to align bullet points properly */
         margin: 0;
-        /* Add padding for better spacing */
         padding-left: 20px;
-        list-style-type: disc; /* Use disc for bullet points */
+        list-style-type: disc;
     }
     
