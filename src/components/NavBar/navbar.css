@@ -17,7 +17,6 @@
 }
 
 .navbar-link {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   letter-spacing: 0.5px;
   font-size: 18px;
   text-transform: none !important;
@@ -27,8 +26,8 @@
   align-items: center;
   height: 100% !important;
   padding: 8px 12px !important;
-  margin: 0 18px; /* Reduce margin */
-  position: relative; /* Ensure the :after pseudo-element is relative to the link */
+  margin: 0 18px; 
+  position: relative;
 }
 
 @media (max-width: 600px) {
@@ -38,9 +37,6 @@
   }
 }
 
-.logo-text, .fraunces {
-  font-family: 'Fraunces', serif;
-}
 
 .navbar-link:after {
   content: "";
@@ -49,15 +45,15 @@
   height: 3px;
   width: 0;
   left: 50%;
-  bottom: 0; /* Align the line at the bottom of the link */
+  bottom: 0; 
   transform: translateX(-50%);
   transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
-  z-index: -1; /* Ensure the line stays behind the text */
+  z-index: -1; 
 }
 
 .navbar-link:hover:after {
-  width: calc(100% - 24px); /* Adjust the width to match the padding on both sides */
-  left: 50%; /* Center the line under the link */
+  width: calc(100% - 24px); 
+  left: 50%; 
   transform: translateX(-50%);
   
 }

@@ -24,16 +24,16 @@ const Home = () => {
               </div>
             </Grid>
             <Grid item xs={12} md={10}>
-              <div className="introduction fraunces">
+              <div className="introduction">
                 <h1>
                   Hello! I'm Reva <Icon component={WavingHandRounded} fontSize='large' sx={{ color: '#EEBBC3' }} />
                 </h1>
                 <div className="job-title">
-                  <div className="line poppins-medium"></div>
+                  <div className="line"></div>
                   <p>Frontend Developer</p>
                 </div>
               </div>
-              <div className='intro poppins-medium'>
+              <div className='intro'>
                 <p>I’m a Front End Developer based in Cebu, City and <br />
                   I’m very passionate and dedicated to my work.</p>
               </div>

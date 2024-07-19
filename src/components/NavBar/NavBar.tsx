@@ -10,11 +10,11 @@ const NavigationBar= () => {
       >
         <Toolbar className="navbar-toolbar">
           <Box display="flex" alignItems="center" flexGrow={1}>
-            <Typography variant="h6" component="span" className="logo-text">RE</Typography>
+            <Typography variant="h4" component="span" className="logo-text">REVA ENAD</Typography>
           </Box>
           <Box display="flex" component="nav">
             <a
-              className='navbar-link fraunces'
+              className='navbar-link'
               href="#home"
             >
               Home
