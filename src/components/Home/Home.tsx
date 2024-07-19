@@ -26,7 +26,7 @@ const Home = () => {
             <Grid item xs={12} md={10}>
               <div className="introduction">
                 <h1>
-                  Hello! I'm Reva <Icon component={WavingHandRounded} fontSize='large' sx={{ color: '#EEBBC3' }} />
+                  Hello! I'm Reva <Icon component={WavingHandRounded} fontSize='large' className="waving-hand" sx={{ color: '#EEBBC3' }} />
                 </h1>
                 <div className="job-title">
                   <div className="line"></div>

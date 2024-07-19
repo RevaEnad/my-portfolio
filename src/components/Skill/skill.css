@@ -1,46 +1,82 @@
+/* Define keyframes for animations */
+@keyframes fadeInUp {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
 .skill-container {
-    width: 100vw; 
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
-    
-    position: relative;
-  }
-  
-  .skill-content {
-    text-align: center;
-    color: white;
-    margin-top: 4%;
-  }
-  
-  .skill-heading {
-    font-size: 3rem;
-    margin-bottom: 10px;
-  }
-  
-  .skill-subheading {
-    font-size: 2rem;
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-  
-  .button-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.skill-content {
+  text-align: center;
+  color: white;
+  margin-top: 4%;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.skill-heading {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  animation: fadeInUp 1s ease-in-out;
+}
 
 .skill-container .resume-container {
-    margin: 0 10px; 
-    background-color: #2D3250;
-    color: white;
-    border-radius: 17px;
-    padding: 29px;
-}
-.skill-container .resume-container:hover{
-    background-color: transparent;
-    color: white;
+  margin: 20px; /* Add margin to create space around each section */
+  background-color: #2D3250;
+  color: white;
+  border-radius: 17px;
+  padding: 29px;
+  opacity: 0;
+  animation: fadeInUp 1s ease-in-out forwards;
+  height: 250px; /* Set a fixed height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Center align text */
 }
 
+.skill-container .resume-container:nth-child(1) {
+  animation-delay: 0.5s;
+}
+
+.skill-container .resume-container:nth-child(2) {
+  animation-delay: 1s;
+}
+
+.skill-container .resume-container:nth-child(3) {
+  animation-delay: 1.5s;
+}
+
+.skill-container .resume-container:nth-child(4) {
+  animation-delay: 2s;
+}
+
+.skill-container .resume-container:nth-child(5) {
+  animation-delay: 2.5s;
+}
+
+.skill-container .resume-container:hover {
+  background-color: transparent;
+  color: white;
+}
