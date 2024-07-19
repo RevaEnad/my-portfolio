@@ -6,14 +6,27 @@
   left: 0;
   width: 100%;
   height: 80px !important;
-  padding-top: 35px;
-  padding-right: 35px;
+  padding-top: 40px; /* Remove any extra top padding */
+  padding-right: 35px; /* Adjust as needed */
 }
 
 .navbar-toolbar {
   display: flex;
-  justify-content: center;
-  padding: 0;
+  justify-content: space-between; /* Space between logo and nav links */
+  align-items: center; /* Center items vertically */
+  padding: 0 35px; /* Horizontal padding for the toolbar */
+  height: 100%; /* Ensure toolbar takes full height */
+}
+
+.logo-container {
+  flex-grow: 1; /* Takes up available space */
+  display: flex;
+  align-items: center; /* Center logo vertically */
+  padding-left: 9%;
+}
+
+.logo-text {
+  color: inherit;
 }
 
 .navbar-link {
@@ -37,7 +50,6 @@
   }
 }
 
-
 .navbar-link:after {
   content: "";
   background-color: #ff3c78;
@@ -55,5 +67,4 @@
   width: calc(100% - 24px); 
   left: 50%; 
   transform: translateX(-50%);
-  
 }
