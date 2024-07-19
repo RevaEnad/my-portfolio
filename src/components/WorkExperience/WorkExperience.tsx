@@ -1,6 +1,6 @@
 import { Card, CardContent, Typography } from '@mui/material';
 import { WorkOutline } from '@mui/icons-material';
-import './workExperience.css';
+import './workexperience.css';
 
 interface Experience {
   company: string;
