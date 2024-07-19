@@ -1,0 +1,118 @@
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes bounceIn {
+        from {
+            opacity: 0;
+            transform: scale(0.9);
+        }
+        to {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+
+    #work-experience {
+        background-color: #232946;
+        padding: 60px 20px;
+        color: #fff;
+    }
+
+    .work-experience-container {
+        max-width: 800px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .section-heading {
+        font-size: 2.5rem;
+        color: #ffffff;
+        text-align: center;
+        margin-bottom: 40px;
+        animation: fadeIn 1s ease-in-out;
+    }
+
+    .timeline {
+        position: relative;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+    .timeline-item {
+        position: relative;
+        display: flex;
+        align-items: flex-start;
+        animation: bounceIn 1s ease-in-out;
+    }
+
+
+    .timeline-dot {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        margin-right: 20px; 
+    }
+
+
+    .timeline-content {
+        background-color: #2e3a59;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+        animation: fadeIn 1s ease-in-out;
+        width: 100%;
+    }
+
+    .experience-card {
+        padding: 15px;
+        border-radius: 8px;
+        border: 5px solid transparent; 
+        background-color:  linear-gradient(to right, #B24592 0%, #F15F79 51%, #B24592 100%); /* Define the gradient */
+        border-image-slice: 1;
+        color: #333;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+
+    .company-name {
+        font-size: 1.1rem;
+        color: #232946;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+
+    .role-duration {
+        font-size: 0.95rem;
+        color: #666;
+        margin-bottom: 10px;
+    }
+
+
+    .description {
+        font-size: 0.9rem;
+        color: #444;
+        line-height: 1.6;
+        /* Remove margin to align bullet points properly */
+        margin: 0;
+        /* Add padding for better spacing */
+        padding-left: 20px;
+        list-style-type: disc; /* Use disc for bullet points */
+    }
+    
